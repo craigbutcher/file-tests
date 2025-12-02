@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "isAdmin": true,
+      "joinDate": "2025-01-12",
+      "posts": [
+        {
+          "id": 101,
+          "title": "Getting Started with Handlebars",
+          "body": "A beginner-friendly guide to templating with Handlebars.",
+          "date": "2025-02-01"
+        },
+        {
+          "id": 102,
+          "title": "Neovim Tree-sitter Tips",
+          "body": "Improve syntax highlighting and code navigation in Neovim.",
+          "date": "2025-02-15"
+        }
+	  ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "isAdmin": false,
+      "joinDate": "2025-03-05",
+      "posts": []
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "generated": "2025-09-25T12:00:00Z"
+  }
+}
